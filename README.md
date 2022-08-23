@@ -25,7 +25,7 @@ Scriptet leter etter inaktive brukere i Bekk-organisasjonen og kjøres som en Gi
 
 ![skjermbilde av github action](./doc/github-action.png)
 
-- Når den er ferdig kjørt får du csv- og json rapport på alle brukere og hvorvidt de er "aktive eller ikke". Jeg har justert det til å gjelde 360 dager (kan justeres i `.github/long_timeframe_test.yml`). Rapporten finner du ved å klikke på workflow'en og under "Artifacts".
+- Når den er ferdig kjørt får du csv- og json rapport på alle brukere og hvorvidt de er "aktive eller ikke". Jeg har justert det til å gjelde 360 (yolo) dager (kan justeres i `.github/long_timeframe_test.yml`). Rapporten finner du ved å klikke på workflow'en og under "Artifacts".
 
 - Filtrer rapporten ved behov. Jeg brukte https://jsonformatter.org og smelte på et filter: "isActive == false" og hentet ut alle logins. Dette løser du!
 
